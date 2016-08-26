@@ -2,7 +2,7 @@ import {Component} from 'angular2/core';
 
 /* Class utilisateur - 24 August 2016 */
 
-export class User{
+export class SuperHero{
 
     constructor(
         public idUser: number,
