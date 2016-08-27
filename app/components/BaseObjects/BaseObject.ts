@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import {person} from '/app';
+import {Person} from './Person';
 
 /*Base object*/
 
