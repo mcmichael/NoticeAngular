@@ -5,13 +5,14 @@ import {Person} from './Person';
 
 export class BaseObject{
     constructor(
-        public id: number,
-        public title: string,
         public date: Date,
-        public hour: Date
+        public hour: Date,
+        public id: number,
 
+        public place: String,
         /*People - Array of persons*/ 
-        
+        public people : Person[],
+        public title: string
 
     ){}
 }

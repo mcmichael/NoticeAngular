@@ -1,13 +1,7 @@
 import {Component} from 'angular2/core';
-
+import {Person} from './Person';
 /* Class utilisateur - 24 August 2016 */
 
-export class SuperHero{
-
-    constructor(
-        public idUser: number,
-        public nickUser: string,
-        public nameUSer: string,
-        public lastName: string
-    ){}
+export class SuperHero: Person{
+    {}
 }
