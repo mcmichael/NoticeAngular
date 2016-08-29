@@ -5,13 +5,10 @@ import {BaseObject} from './BaseObject'
 Class notification - 23 August 2016
 */
 export class Notice{
+notice: BaseObject;
 
-
-    constructor(
-        public id: number,
-        public message: string,
-        public dateMessage: Date,
-        public statutMessage: number
-    ){}
+    constructor(baseObject: BaseObject)
+        
+    {}
 
 }

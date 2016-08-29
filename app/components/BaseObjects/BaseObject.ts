@@ -6,12 +6,18 @@ import {Person} from './Person';
 export class BaseObject{
     constructor(
         public date: Date,
+        /* Duration */
+        public time: Date,
+
         public hour: Date,
         public id: number,
 
         public place: String,
         /*People - Array of persons*/ 
-        public people : Person[],
+        public peopleMeeting : Person[],
+
+        public personSender: Person,
+        public peopleReceiver: Person[],
         public title: string
 
     ){}
