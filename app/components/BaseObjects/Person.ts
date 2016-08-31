@@ -6,9 +6,9 @@ export class Person{
 
     constructor(
         public idPerson: number,
-        public nickPerson: string,
+        public lastNamePerson: string,
         public namePerson: string,
-        public lastNamePerson: string
+        public nickPerson: string
     ){}
 }
 

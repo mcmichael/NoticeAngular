@@ -1,13 +1,15 @@
 import {Component} from 'angular2/core';
 import {Person} from './Person';
+import {Quality} from './Quality';
 /* Class utilisateur - 24 August 2016 */
 
-export class SuperHero{
+export class SuperHero extends Person{
 
-    personHero : Person;
-    
-    constructor(person : Person)
-    {
-        this.personHero = person;
-    }
+/*Quality Arrays content the forces to develop on superHero*/
+qualitySuperHero: Quality[];
+
+    constructor(id, lastName, name, nick ){
+        super(id,lastName,name,nick);
+        
+    }   
 }
