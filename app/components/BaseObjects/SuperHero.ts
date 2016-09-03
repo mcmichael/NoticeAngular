@@ -6,10 +6,10 @@ import {Quality} from './Quality';
 export class SuperHero extends Person{
 
 /*Quality Arrays content the forces to develop on superHero*/
-qualitySuperHero: Quality[];
+private qualitySuperHero: Quality[];
 
-    constructor(id, lastName, name, nick ){
-        super(id,lastName,name,nick);
+    constructor(){
+        super();
         
     }   
 }

@@ -1,17 +1,17 @@
 import {Component,Optional} from 'angular2/core';
-import {BaseObject} from './BaseObject'
+import {MessageObject} from './MessageObject';
 import {Person} from './Person';
 
 /*
-Class notification - 23 August 2016
+Class Notice - 23 August 2016
 */
-export class Notice extends BaseObject{
+export class Notice extends MessageObject{
     
-    /* Initialize empty arrays and empty values with @Optional*/
+    /* Initialize*/
 
-    constructor(dateNotice:Date, hourNotice:Date, idNotice:number, placeNotice:string,titleNotice:string, @Optional() peopleMeeting: Person[], @Optional() peopleSender: Person, @Optional() peopleReceiver: Person[], @Optional() time: number)
+    constructor()
     {
-        super(dateNotice,hourNotice,idNotice,placeNotice,titleNotice,peopleMeeting,peopleSender,peopleReceiver,time);
+        super();
     }
     
 
